@@ -1,0 +1,36 @@
+.h2{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+.text{
+    font-weight: bold;
+}
+.main{
+    margin: auto;
+}
+.table1{
+    margin: auto;
+    width: 800px;
+    height: 80px;
+    font-size: 150%;
+}
+.colortext{
+    color: rgba(151, 1, 1, 0.637);
+}
+.td1:hover{
+    border-left: 4px solid rgb(21, 241, 201);
+    padding: 10px;
+}
+.td1{
+    border-left: 4px solid blue;
+    padding: 10px;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}

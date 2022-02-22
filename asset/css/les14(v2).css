@@ -1,0 +1,91 @@
+body h1{
+    text-align: center;
+}
+.container{
+    width: 1500px;
+}
+.main{
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.b1{
+    margin: 0px 20px 0px 0px;
+}
+.d1{
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    left: 300px;
+}
+.d2{
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    position: relative;
+    left: 300px;
+}
+.d3{
+    border: 1px solid black;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    left: 750px;
+    bottom: 334px;
+}
+.d4{
+    border: 1px solid black;
+    height: 120px;
+    width: 400px;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    position: relative;
+    left: 750px;
+    bottom: 333px;
+}
+@media screen and (min-width: 120rem) {
+    .d1 {
+        border: 1px solid black;
+        height: 150px;
+        width: 200px;
+        padding: 10px;
+        position: relative;
+        left: 16px;
+    }
+    .d2 {
+        border: 1px solid black;
+        width: 200px;
+        height: 150px;
+        margin: 20px 0px 0px 0px;
+        padding: 10px;
+        position: relative;
+        left: 527px;
+        bottom: 191px;
+    }
+    .d3 {
+        border: 1px solid black;
+        height: 150px;
+        width: 200px;
+        padding: 10px;
+        position: relative;
+        left: 270px;
+        bottom: 363px;
+    }
+    .d4 {
+        border: 1px solid black;
+        height: 150px;
+        width: 200px;
+        margin: 20px 0px 0px 0px;
+        padding: 10px;
+        position: relative;
+        left: 781px;
+        bottom: 553px;
+    }
+    .main{
+        margin-left: 440px;
+    }
+}

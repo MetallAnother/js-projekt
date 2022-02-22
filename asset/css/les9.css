@@ -1,0 +1,237 @@
+.header{
+    background: url(../images/bacgraund.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+}
+body{
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header_navigator{
+    color: white;
+}
+.a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.a:hover{
+    transition: 0.5s linear;
+    font-size: 30px;
+}
+.a2:hover{
+    transition: 0.5s linear ;
+    font-size: 20px;
+    
+}
+.a2{
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    float: right;
+    text-indent: 1.5em;
+}
+.a3{
+    text-decoration: none;
+    width: 30px;
+    height: 90px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+.a3:hover{
+    transition: 1s linear;
+    background: #ffffff;
+    color: red;
+    
+}
+.h1{
+    margin: 250px 0px 0px 40px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 24px;
+}
+
+.center{
+    background: #ffffff;
+}
+.service{
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+.hr{
+    width: 30px;
+    height: 0.5px;
+    background: black;
+}
+.single_servis{
+    display: flex;
+    margin: 0px 0px 0px 125px;
+}
+.krug{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    text-align: center;
+    margin: 0px 0px 0px 300px;
+}
+.supo{
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin: 20px 0px 0px 0px;
+}
+.krug:hover{
+    transition: 1s linear;
+    color:#ffffff;
+    background-color:red;
+}   
+.krug1:hover{
+    transition: 1s linear;
+    background-color:#ffffff;
+}
+.supo1{
+    margin: 20px 0px 0px 0px;
+
+}
+.krug1{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background:red;
+    border: 2px solid #dddddd;
+    text-align: center;
+}
+.footer{
+    height: 300px;
+    background: red;
+    color: #ffffff;
+    text-align: center;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border:100px;
+    border-radius: 200px;
+    background-color: red;
+    border: 2px solid #ffffff;
+    margin: 90px 0px 0px 10px;
+}
+.circle:hover{
+    transition: 1s linear;
+    background: #ffffff;
+
+}
+.twiter{
+    margin: 10px 0px 0px 0px;
+    color: #ffffff;
+}
+.container2{
+    margin: 20px 0px 0px 840px ;
+}
+.center_text{
+    display: flex;
+}
+.text{
+    width: 360px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin: 0px 0px 0px 20px;
+}
+.text1{
+    width: 360px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin: 0px 0px 0px 30px;
+}
+.text2{
+    margin: 0px 0px 0px 100px;
+    width: 360px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    margin: 0px 0px 100px 20px;
+}
+.center_h{
+    display: flex;
+}
+.h{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0px 0px 0px 120px;
+}
+.h2{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0px 0px 0px 297px;
+}
+.hed3{
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0px 0px 0px 299px;
+}
+.foot_twit{
+    display: flex;
+    margin: 0px 0px 0px 475px;
+}
+.end{
+    margin: 50px 0px 0px 0px;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.a6{
+    margin-left: 5%;
+    color: white;
+    text-decoration: none;  
+}

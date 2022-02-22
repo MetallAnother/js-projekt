@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(236, 236, 234);
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;  
+    background-color:white;  
+    padding: 16px 32px 16px 32px;
+}
+h1, h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+a{
+    color: #2db34a;
+    display: flex;
+    text-decoration: none;
+    margin: 30px 0px 0px 0px;
+}
+.arrow{
+    color: #2db34a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.arrow::after{
+    content:">";
+    margin: 0.11px;
+}
+.arrow:hover::after{
+    position: relative;
+    left: 10px;
+}
+.hexagon{
+    display: inline-block;
+    position: relative;
+    padding-right: 3.5rem;
+}
+.hexagon::before{
+    background: url(http://www.candicendexter.com/images/hexagon.svg) center top no-repeat;
+    border-top: 0;
+    content: " ";
+    width: 30px;
+    height: 35px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 1rem;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.hexagon::after {
+    background: url(http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg) center center no-repeat;
+    content: "";
+    width: 21px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+    right: 1.3rem;
+    line-height: 19px;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+}
+.hexagon:hover::before{
+    transform: rotate(30deg);
+}
+.print{
+    color: #2db34a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.print::after{
+    content: ".(HTTP://WWW.GOOGLE.COM).";
+    color: black;
+}
+div{
+    margin-left: 5%;
+}
+article{
+    margin-left: 5%;
+}
+#link{
+    color: blue;
+}
+p{
+    color: #2db34a;
+}
+#hover:hover{
+    font-weight: bold;
+}
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    color: blue;
+}
+article p:first-of-type{
+    font-weight: bold;
+}
+article span:only-of-type{
+    text-transform: capitalize;
+}
+article p:last-of-type{
+    color: blue;
+}
+article h4:nth-last-child(3n){
+    color: blue;
+}
+article h5:nth-of-type(2n){
+    color: red;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}

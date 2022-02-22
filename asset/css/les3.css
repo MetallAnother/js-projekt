@@ -1,0 +1,45 @@
+.glav{
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+th{
+    border: 1px solid black;
+    height: 90px;
+}
+td{
+    text-align: center;
+    border: 1px solid black; 
+    height: 90px;
+}
+h1:hover{
+    color: wheat;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(164, 184, 82);
+    background: linear-gradient(90deg, rgb(132, 138, 107) 39%, rgb(137, 146, 201) 52%, rgba(193,242,201,1) 76%);
+}
+td:hover{
+    background: rgb(135, 135, 240);
+    background: linear-gradient(90deg, rgb(180, 200, 247) 39%, rgba(240,226,214,1) 76%);
+    color: white;
+}
+th:hover{
+    color: grey;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}

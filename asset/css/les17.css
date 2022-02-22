@@ -1,0 +1,60 @@
+.row{
+    display: flex;
+}
+.lenovo{
+    height: 200px;
+}
+.card{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+
+}
+.bat{
+    width: 230px;
+}
+.element.style {
+    width: 23rem;
+}
+.msi{
+    padding-bottom: 40px;
+}
+.label-top {
+    position: absolute;
+    background-color: var(--label-index);
+    background-color: #960796;
+    top: 8px;
+    right: 8px;
+    padding: 5px 10px 5px 10px;
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+img{
+    margin-top: 30px;
+}
+.razer{
+    padding-bottom: 8px;
+}
+.hov:hover{
+    width: 500px;
+}
+.ass{
+    padding-bottom: 20px;
+}
+.asa{
+    padding: 2px;
+}
+.hov:hover{
+    font-size: 17px;
+}
+.hov{
+    margin: 0%;
+}
+.sos{
+    margin-left: auto;
+}
+.oso{
+    margin-right: auto;
+}

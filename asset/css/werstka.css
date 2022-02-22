@@ -1,0 +1,216 @@
+body{
+    margin: 0%;
+}
+header{
+    background: url(../images/photo.png) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: 100%;
+}
+header::before{
+    background: rgb(57 53 53 / 71%);
+}
+.main{
+    display: flex;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.waxon{
+    position: relative;
+    bottom: 10px;
+}
+.menu{
+    position: relative;
+    top: 30px;
+    margin-left: 200px;
+    width: 630px;
+    height: 10px;
+}
+.menu a{
+    margin-left: 20px;
+    width: 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu a:active{
+    color: rgb(240, 185, 22);
+}
+.cart{
+    margin-top: 25px;
+}
+.cart a{
+    margin-left: 20px;
+}
+.slider{
+    text-align: center;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: white;
+}
+.bold{
+    font-weight: bold;
+    font-size: 50px;
+}
+.smoll{
+    font-size: 19px;
+}
+.tws{
+    font-size: 35px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    background: rgb(192, 165, 115);
+    border-radius: 2px;
+    width: 30px;
+    height: 40px;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    top: 60px;
+}
+.button a:active{
+    background: rgb(187, 150, 81);
+}
+.left{
+    position: relative;
+    left: 700px;
+    top: 148px;
+}
+.right{
+    position: relative;
+    right: 700px;
+    top: 155px;
+}
+.content{
+    display: flex;
+    background: white;
+    width: 100%;
+    margin-top:100px;
+}
+.contain div{
+    width: 300px;
+    margin-left: 20px ;
+}
+.content div img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.contain{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+.o2 h1 {
+    margin-top: 30px;
+}
+.o3 h1{
+    margin-top: 25px;
+}
+.o4{
+    margin-top: 10px;
+}
+.o4 hr{
+    border: 0px solid;
+    height: 3px;
+    width: 90px;
+    background: #f1eee9;
+}
+.o3 hr{
+    border: 0px solid;
+    height: 3px;
+    width: 90px;
+    background: #f1eee9;
+}
+.o2 hr{
+    border: 0px solid;
+    height: 3px;
+    width: 90px;
+    background: #f1eee9;
+}
+.o1 hr{
+    border: 0px solid;
+    height: 3px;
+    width: 90px;
+    background: #f1eee9;
+}
+.o1:hover{
+    color: #c7b199;
+}
+.o2:hover{
+    color: #c7b199;
+}
+.o3:hover{
+    color: #c7b199;
+}
+.o4:hover{
+    color: #c7b199;
+}
+.img{
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fbfaf8;
+}
+.e{
+    width: 400px;
+    z-index: 1;
+}
+.w{
+    width: 400px;
+    z-index: 1;
+    position: relative;
+    left: 200px;
+}
+.q{
+    width: 400px;
+    position: relative;
+    right: 200px;
+}
+.point{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+}
+.litera{
+    width: 100%;
+    height: 100px;
+    max-width: 650px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.brown ul{
+    height: 80px;
+    background: linear-gradient(rgb(51, 30, 11), rgb(58, 38, 19));
+    list-style-type: none;
+    padding: 80px 20px 30px 300px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background: #988574;
+    border-radius: 2px;
+    width: 30px;
+    height: 40px;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    top: 120px;
+    left: 1300px;
+}
+.btn:active{
+    background: #8a6a4f;
+}
+

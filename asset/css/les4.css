@@ -1,0 +1,134 @@
+.main{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.cv-image{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+}
+.tabl1{
+    width: 300px;
+    height: 700px;
+    margin:30px;
+    -webkit-box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+    -moz-box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+    box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+}
+.td1{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+}
+.td2{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+}
+.td3{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+    border-bottom: 0px;
+}
+.tabl2{
+    width: 1100px;
+    height: 700px;
+    margin:10px;
+    -webkit-box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+    -moz-box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+    box-shadow: -8px -5px 25px 8px rgba(34, 60, 80, 0.18);
+}
+.td4{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+}
+.td5{
+    height: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+}
+.td6{
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px ;
+    border-right: 0px ;
+    width: 4px;
+}
+.h1{
+    text-align:  center;
+}
+.h2{
+    text-align:  center;
+}
+.h3{
+    text-align:  center;
+    font-size: 150%;
+}
+.h4{
+    text-align:  center;
+    font-size: 150%;
+}
+.h5{
+    font-size: 150%;
+}
+.h6{
+    font-size: 150%;
+}
+.h7{
+    font-size: 150%;
+}
+.colortext{
+    color:rgb(0, 255, 157);
+}
+.img{
+    text-align:  center;
+}
+.td7{
+    text-align:  center;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.ul1{
+    list-style-type: none;
+}
+.ul2{
+    list-style-type: none;
+}
+.ul3{
+    list-style-type: none;
+}
+.ul4{
+    list-style-type: none;
+}
+.ul5{
+    list-style-type: none;
+}
+.ul6{
+    list-style-type: none;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}

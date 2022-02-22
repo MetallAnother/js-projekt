@@ -1,0 +1,105 @@
+.japona{
+    border: 1px solid black ;
+    width: 200px;
+    height: 150px;
+}
+.krug{
+    border: 1px solid red;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: red;
+    margin: 29px 0px 0px 50px;
+}
+.insta{
+    border: 1px solid white ;
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(purple, orange);
+}
+.bor1{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    margin: 30px 0px 0px 30px;
+    border: 10px solid white;
+}
+.crug{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0px 0px 0px 25px;
+    border: 10px solid white;
+}
+.mini{
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    margin: 9px 0px 0px 85px;
+    border: 10px solid white;
+    background-color: white;
+}
+.spika{
+    border: 1px solid white;
+}
+.sira{
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(58, 25, 3);
+    background-color: rgb(58, 25, 3);
+    margin: 0px 0px 0px 40px;
+    position: relative;
+    top: 12px;
+}
+.palka{
+    border: 1px solid white;
+    width: 20px;
+    height: 200px;
+    margin: 0px 0px 0px 45px;
+    background: linear-gradient(rgb(95, 57, 14), rgb(197, 125, 43));
+}
+.ogon{
+    border: 1px solid white;
+    transform: rotate(-40deg);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(red, yellow);
+    position: relative;
+    margin: 0px 0px 0px 15px;
+    top: 50px;
+    box-shadow: 0px 0px 32px 14px rgba(218, 227, 139, 0.9);}
+.fixed{
+    border: 1px solid black;
+    background: blueviolet;
+    width: 30px;
+    position: fixed;
+    left: 123px;
+    top: 30px;
+    z-index: 1;
+}
+.absolute{
+    width: 10;
+    background: pink;
+    z-index: 2;
+}
+.d1{
+    width: 30;
+    background: red;
+}
+.non{
+    width: 10px;
+    height: 300px;
+    border: 20px solid blue;
+}
+.back{
+    text-decoration: none;
+    margin-left: 95% ;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+}

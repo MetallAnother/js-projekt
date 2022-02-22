@@ -1,0 +1,54 @@
+ul{
+    display: flex;
+}
+li{
+    margin-right: 10px;
+    list-style: none;
+
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.lol{
+    width: 200px;
+}
+ul li{
+    text-align: center;
+    height: 20px;
+    border: 1px solid black;
+    background: blue;
+    width: 200px;
+    color: white;
+
+}
+ul li ul{
+    text-align: center;
+    visibility:hidden;
+    display: inline;
+    position: relative;
+    width: 100px;
+}
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: inline;
+    position: relative;
+    top: 3px;
+    right: 1px;
+}
+ul li ul li{
+    margin-top: 0.4px;
+}
+.katana ul li{
+    position: relative;
+    left: 210px;
+    bottom: 20px;
+}
+.back{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 1px solid brown;
+    border-radius: 50px;
+    background-color: rgb(202, 195, 245);
+}
