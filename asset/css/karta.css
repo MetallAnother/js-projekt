@@ -1,0 +1,73 @@
+.card{
+    width: 450px;
+    height: 240px;
+    background: url(../images/photo5238142943586531262.jpg) no-repeat;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.card2{
+    width: 450px;
+    height: 240px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.ramka{
+    height: 50px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 28px;
+}
+.chip{
+    width: 70px;
+    margin: 0%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.input_numb{
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    position: relative;
+    top: 58px;
+    left: 55px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.input_name{
+    width: 300px;
+    height: 30px;
+    padding-left: 20px;
+    position: relative;
+    top: 66px;
+    left: 55px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.card-nomer{
+    color: white;
+    position: relative;
+    bottom: 13px;
+}
+.name{
+    height: 20px;
+    width: 150px;
+    position: relative;
+    left: 23px;
+    top: 70px;
+}
+.card-name{
+    margin: 0%;
+    font-size: 17px;
+    color: white;
+}
